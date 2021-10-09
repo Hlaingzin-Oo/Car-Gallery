@@ -1,0 +1,9 @@
+<div class="container" *ngIf="selectImg">
+    <div class="row mt-5">
+        
+        <div class="card col-md-6 offset-md-3 bImg"> 
+            <button class="btn btn-danger" (click)="selectImg=!selectImg">Close</button>            
+            <img src="../../../assets/img/{{selectImg.bigImage}}" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>
